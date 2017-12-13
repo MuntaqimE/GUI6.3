@@ -8,12 +8,12 @@ public class Layout extends JFrame {
         button2 = new JButton("2");
         button3 = new JButton("3");
         button4 = new JButton("4");
-        setLayout(new GridLayout(2, 2));
+        setLayout(new GridLayout(8, 8));
         add(button);
         add(button2);
         add(button3);
         add(button4);
         setVisible(true);
-        setSize(new Dimension(200, 200));
+        setSize(new Dimension(800, 800));
     }
 }
